@@ -3,12 +3,19 @@
 <head>
     <meta http-equiv="content-type" content="text/html;charset=utf-8" />
     <meta name="viewport" content="width, initial-scale=1.0, maximum-scale=1.0" /> 
-    <title>Skills</title>
+    <title>자주 하는 질문</title>
     <link rel="shortcut icon" href="/React-PortFolio/favicon.ico">
 	<link rel="stylesheet" type="text/css"  href="./desktop.css" media="only screen and (min-width:401px)"  />
 	
-	
+
+	<script>
+	function down(obj) {
+		obj.style.backgroundColor = "skyblue";
+		// 테두리 폭이 0일 때 색은 보이지 않는다.
+	}
 	</script>
+
+
 	<style type="text/css">
 		.u.i-progressbar { position:relative; }
     	.progress-label {
@@ -19,6 +26,8 @@
     	    margin-left:-40px;
     	}
 	</style>
+
+
 </head>
  
 <body>
@@ -29,54 +38,56 @@
 
 <div id="wrap">
 	<div id="header">
-		<h1 id="logo"> "JungHwan Task"</h1>
+		<h1 id="logo"><a href="index.html">"JungHwan Task"</a></h1>
 		<h2 class="noVisible">메인메뉴</h2>
 		<ul id="menu">
-			<li><a href="index.html">HOME</a></li>
-			<li class="current"><a href="jh_sub1.html">코로나 바로알기</a></li>
+			<li><a href="jh_sub4.html">코로나 발생 현황</a></li>
+			<li><a href="jh_sub1.html">코로나 바로알기</a></li>
 			<li><a href="jh_sub2.html">자주 하는 질문</a></li>
-			<li><a href="jh_sub3.html">사회적 거리두기</a></li>
+			<li class="current"><a href="jh_sub3.html">사회적 거리두기</a></li>
 		</ul>
 	</div>
 	<hr class="hidden" />
 	
 	<div id="contents">
-		<h1>SKILLS</h1>
+		<h1>FAQ</h1>
 		<hr>
 		<h2 id="cert">코로나 19 <br> 자주하는 질문 </h2>
-		<h3 class="skill-padding">ㅇJAVA : 중상</h3>
-		<button onclick="question(event)"> 답변 </button>
-		<div class="progressbar"><div class="progress-label"></div></div>
-		<br/>
-		<h3 class="skill-padding">ㅇPython : 하</h3>
-		<div class="progressbar"><div class="progress-label"></div></div>
-		<br/>
-		<h3 class="skill-padding">ㅇHTML : 중</h3>
-		<div class="progressbar"><div class="progress-label"></div></div>
-		<br/>
-		<h3 class="skill-padding">ㅇCSS : 중</h3>
-		<div class="progressbar"><div class="progress-label"></div></div>
-		<br/>
-		<h3 class="skill-padding">ㅇJavaScript : 중</h3>
-		<div class="progressbar"><div class="progress-label"></div></div>
-		<br/>
-		<h3 class="skill-padding">ㅇSQL : 중상</h3>
-		<div class="progressbar"><div class="progress-label"></div></div>
-		<h3 class="skill-padding">ㅇLinux : 하</h3>
-		<div class="progressbar"><div class="progress-label"></div></div>
-
+		<hr>
+		<h2>병원체 정보</h2>
+		<br>
+		<hr>
+		<h3 class="skill-padding" onclick="question(event)" onmousedown="down(this)">Q.코로나 바이러스 감염증-19는 어떤 질병인가요?</h3>
+		<h3 class="skill-padding" onclick="question(event)" onmousedown="down(this)">Q.코로나 바이러스는 어떤 바이러스 인가요?</h3>
+		<h3 class="skill-padding" onclick="question(event)" onmousedown="down(this)">Q.코로나바이러스 감염증-19 의 이름은 어떻게 지어졌나요?</h3>
+		<h3 class="skill-padding" onclick="question(event)" onmousedown="down(this)">Q.코로나19는 어떻게 전염되나요?</h3>
+		<h3 class="skill-padding" onclick="question(event)" onmousedown="down(this)">Q.지역사회 감염이 무엇인가요?</h3>
+		<h3 class="skill-padding" onclick="question(event)" onmousedown="down(this)">Q.음식을 통해 코로나19가 전염될 수 있나요?</h3>
+		<h3 class="skill-padding" onclick="question(event)" onmousedown="down(this)">Q.모기나 진드기 같은 곤충이 코로나19를 전파시킬 수 있나요?</h3>
+		<hr>
+		<br>
+		<h2>검사</h2>
+		<br>
+		<hr>
+		<h3 class="skill-padding" onclick="question(event)" onmousedown="down(this)">Q.누가 검사를 받을 수 있나요? </h3>
+		<h3 class="skill-padding" onclick="question(event)" onmousedown="down(this)">Q.검사는 어디에서 받을 수 있나요?</h3>
+		<h3 class="skill-padding" onclick="question(event)" onmousedown="down(this)">Q.검사는 어떻게 이루어지나요?</h3>
+		<h3 class="skill-padding" onclick="question(event)" onmousedown="down(this)">Q.검사 시간은 얼마나 걸리나요?</h3>
+		<h3 class="skill-padding" onclick="question(event)" onmousedown="down(this)">Q.검사 비용은 어떻게 되나요?</h3>
+		<h3 class="skill-padding" onclick="question(event)" onmousedown="down(this)">Q.열 스캐너로 코로나 19 환자를 찾아낼 수 있나요?</h3>
+		<h3 class="skill-padding" onclick="question(event)" onmousedown="down(this)">Q.선별진료소 검체 채취 시에 보호자가 동행하여 검사를 받을 수 있나요?</h3>
+	
 
 	</div> 
 
 	
-	<!--  end of contents -->
+
 	<hr  class="hidden" />
     <address id="footer">
 		covid 19-감염증에 대한 정보를 알리기 위한 홈페이지 <br />
         <i></i><span> 아래를 클릭하면 질병관리청 사이트로 이동합니다. </span>
-        <a href="http://ncov.mohw.go.kr/"><i></i><div> 코로나 바이러스 감염증 홈페이지 </div></a>
+        <a href="http://ncov.mohw.go.kr/faqBoardList.do?brdId=3&brdGubun=38"><i></i><div> 코로나 바이러스 감염증 홈페이지 </div></a>
 	</address>
-</div>  <!--  end of wrap -->
-  
+</div>  
 </body>
 </html>
