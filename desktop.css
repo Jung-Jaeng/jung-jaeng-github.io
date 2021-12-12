@@ -74,6 +74,9 @@ body {
 }
 #logo, #logo a {
     float: left;
+    font-size: 24px;
+    color: #999;
+    text-shadow: 3px 3px 5px aqua;
 }
 #menu {
     z-index: 999; /*z축 제일 앞으로 */
